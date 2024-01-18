@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 110px;
+    background-color:rgb(44,62,80);
+    color: white;
+    
+}
+.ul1{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    font-weight: 700;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    font-size: 18px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 254px;
+    margin-bottom: 30px;
+
+}
+.section1{
+    height: 620px;
+    background-color: rgb(26,188,156);
+}
+.sec1_h1{
+    font-size: 64px;
+    color: white;
+    margin-bottom: 20px;
+}
+.sec1_p{
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+}
+.line{
+    width: 100px;
+    height: 3px;
+    background-color: white;
+    border-radius: 10px;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+    
+}
+.fa-solid{
+    font-size: 30px;
+    color: white;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px;
+}
+.sec2_h2{
+    font-size: 48px;
+    color: white;
+    margin-bottom: 20px;
+}
+.section2{
+    background-color: rgb(26,188,156);
+    height: 500px;
+    
+}
+.sec2_p2{
+    color: white;
+    font-size: 20px;
+    height: 150px;
+    width: 415px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 70px;
+}
+.sec2_texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 65px;
+    width: 231px;
+    background-color: rgb(26,188,156);
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    gap: 10px;
+
+}
+.buttonicon{
+    font-size: 20px;
+    gap: 10px;
+}
+.button:hover{
+    background-color: white;
+    color: rgb(44,62,80);
+    cursor: pointer;
+    
+    
+    .buttonicon{
+        color: rgb(44,62,80);
+    }
+}
+.footer{
+    background-color: rgb(44,62,80);
+
+}
+h4{
+    color: white;
+}
+.footer p{
+    color: white;
+}
+.footer span{
+    color: white;
+}
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    gap: 100px;
+}
+.span{
+    height: 72px;
+    background-color: rgb(26,37,47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.location{
+    height: 28px;
+    width: 265px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    margin-right: 25px;
+
+}
+.locationinfo{
+    height: 60px;
+    width: 265px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.around{
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.about{
+    font-size: 24px;
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.aboutinfo{
+    font-size: 20px;
+    height: 60px;
+    width: 380px;
+}
+.facebook{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    border: 2px solid white;
+    
+}
+.facebook>i{
+    color: white;
+    margin: ;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+}
+.twitter{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.linkedin{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.dribble{
+    width: 52px;
+    height: 52px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+.fa-brands{
+    margin-left: 14px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.twitter>i{
+    color: white;
+}
+.linkedin>i{
+    color: white;
+}
+.dribble .fa-solid{
+    margin-left: 14px;
+    margin-top: 14px;
+    font-size: 20px;
+}
+.facebook:hover{
+    background-color: white;
+    color: rgb(44,62,80);
+    cursor: pointer;
+    
+    
+    .fa-brands{
+        color: rgb(44,62,80);
+    }
+}
+.twitter:hover{
+    background-color: white;
+    color: rgb(44,62,80);
+    cursor: pointer;
+    
+    
+    .fa-brands{
+        color: rgb(44,62,80);
+    }
+}
+.linkedin:hover{
+    background-color: white;
+    color: rgb(44,62,80);
+    cursor: pointer;
+    
+    
+    .fa-brands{
+        color: rgb(44,62,80);
+    }
+}
+.dribble:hover{
+    background-color: white;
+    color: rgb(44,62,80);
+    cursor: pointer;
+    
+    
+    .fa-solid{
+        color: rgb(44,62,80);
+    }
+}
